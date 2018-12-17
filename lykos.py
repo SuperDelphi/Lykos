@@ -192,6 +192,7 @@ class _FightScreen():
 
         f.gItems.update({"shadow": c.create_oval(x - spriteWidth / 2, y - 15, x + spriteWidth / 2, y + 15, fill="black", outline=None)}) # Dessin de l'ombre
         f.gItems.update({"sprite": c.create_image(x, y, image=f.sprite, anchor=S)}) # Dessin du sprite
+        f.gItems.update({"LifeBar": c.create_rectangle(x - spriteWidth / 2, y-200, x + spriteWidth /2, y-185, fill = "#45CF8B", width=2)}) # Création de la barre de vie 
         # ? Ajouter barre de vie, stats, etc.
 
         ### Dessins ###
