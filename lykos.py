@@ -191,8 +191,9 @@ class _FightScreen():
         ### Dessins ###
 
         f.gItems.update({"shadow": c.create_oval(x - spriteWidth / 2, y - 15, x + spriteWidth / 2, y + 15, fill="black", outline=None)}) # Dessin de l'ombre
-        f.gItems.update({"sprite": c.create_image(x, y, image=f.sprite, anchor=S)}) # Dessin du sprite
-        f.gItems.update({"LifeBar": c.create_rectangle(x - spriteWidth / 2, y-200, x + spriteWidth /2, y-185, fill = "#45CF8B", width=2)}) # Création de la barre de vie 
+        f.gItems.update({"sprite": c.create_image(x, y, image=f.sprite, anchor=S)}) # Dessin du sprite       
+        f.gItems.update({"LifeBarBg": c.create_rectangle(x - spriteWidth / 2, y-200, x + spriteWidth / 2, y -185, fill= "red", width = 3) })  # Fond barre HP
+        f.gItems.update({"LifeBar": c.create_rectangle(x - spriteWidth / 2, y-200, x + spriteWidth / 3, y-185, fill = "#45CF8B", width=0)}) # Création de la barre de vie 
         # ? Ajouter barre de vie, stats, etc.
 
         ### Dessins ###
