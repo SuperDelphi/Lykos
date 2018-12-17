@@ -24,4 +24,3 @@ app.fs.create(charmander)
 app.fs.create(pikachu, isEnemy=True)
 
 app.start()
-zzrgrzgrggzrgzrzggr
