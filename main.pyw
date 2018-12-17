@@ -9,7 +9,7 @@
 # * Importations
 
 from lykos import *
-
+m
 # * Déclarations
 
 game = Game()
