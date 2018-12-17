@@ -1,10 +1,10 @@
 ﻿# -*- coding:utf-8 -*-
 
-###########################################
-# Title: Kintermon (jeu de démonstration) #
-# Author: Simon Breil & Raphaël Castillo  #
-# License: GPL                            #
-###########################################
+#############################################
+#  Title: Kintermon (jeu de démonstration)  #
+#  Author: Simon Breil & Raphaël Castillo   #
+#  License: GPL                             #
+#############################################
 
 # * Importations
 
